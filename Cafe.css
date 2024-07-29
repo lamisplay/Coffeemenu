@@ -1,0 +1,52 @@
+h1, h2, p{
+    text-align: center;
+    font-family: monospace;
+}
+body{
+    background-image: url(https://majestycoffee.com/cdn/shop/articles/coffee_beans_4.jpg?v=1683532226);
+    font-family: fantasy;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.436);
+}
+main{
+    background-color: burlywood;
+    width: 40%;
+     margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#product{
+    text-align: left;
+    width: 49%;
+}
+#price{
+    text-align: right;
+    width: 49%;
+}
+#item p{
+    display: inline-block;
+    
+}
+a{
+    color: black;
+}
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a:hover{
+    color: rgb(144, 7, 0);
+    transition: 2s ease-out;
+    
+  }
